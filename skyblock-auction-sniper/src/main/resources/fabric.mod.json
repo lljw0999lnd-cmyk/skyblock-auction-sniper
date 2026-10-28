@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auction_sniper",
+  "version": "${version}",
+  "name": "SkyBlock Auction Sniper",
+  "description": "Manual-only auction value estimator and sniper shortlist for Hypixel SkyBlock.",
+  "authors": ["Local Project"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.example.auctionsniper.AuctionSniperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "26.1.1",
+    "fabric-api": ">=0.145.4"
+  }
+}
